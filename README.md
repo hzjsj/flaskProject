@@ -1,23 +1,29 @@
-# flaskProject
+# 公司官网
 
 #### 介绍
 用 flask 框架和腾讯云开发cms 开发的一个公司官网。
 
 #### 软件架构
-软件架构说明 
+1. 前端框架：[layui](https://www.layui.com/)  
+2. 服务端： [flask](https://dormousehole.readthedocs.io/en/latest/)
+3. 后端API：[云开发CMS](https://docs.cloudbase.net/cms/intro.html)
 
+#### 效果截图
+**首页**
+![首页](https://687a-hzpc-1258873690.tcb.qcloud.la/cloudbase-cms/upload/2021-07-05/affwscxqqds5g4wdm1n14gvl41giesxp_.png)
+
+**后台**
+![cms.png](https://687a-hzpc-1258873690.tcb.qcloud.la/cloudbase-cms/upload/2021-07-05/HiZxW2JhKpdYxsnXiYLmrm4pyZy32XPz_.png)
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  将本项目 clone 到本地。
+2.  看文档安装 [云开发CMS](https://docs.cloudbase.net/cms/intro.html) 拓展
+3.  导入模型 flask-project.json 文件
+4.  在云开发 CMS 后台，开启 API 访问
+5.  修改 [app.py](/app.py) 文件中的 api
+6.  运行 `python app.py`
 
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
 
 #### 参与贡献
 
@@ -25,13 +31,3 @@
 2.  新建 Feat_xxx 分支
 3.  提交代码
 4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
