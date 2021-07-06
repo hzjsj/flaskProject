@@ -24,7 +24,6 @@
 5.  修改 [app.py](/app.py) 文件中的 api
 6.  运行 `python app.py`
 
-
 #### 参与贡献
 
 1.  Fork 本仓库
